@@ -1,0 +1,26 @@
+/**app.wxss**/
+
+.container, .swiper-container {
+  line-height: 1.5rem;
+  background-color: #f6f8f9;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 5%;
+  background-color: #f6f8f9;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.seperator {
+  width: 1rpx;
+  border-left: 1px solid #ddd;
+  margin: 0 10px;
+}

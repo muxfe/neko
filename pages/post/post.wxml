@@ -1,0 +1,23 @@
+<!--pages/post/post.wxml-->
+<swiper class="swiper-container" 
+current="{{ swiperCurrentIndex }}" 
+duration="{{ swiperDuration }}" 
+bindchange="onPostChange">
+  <block wx:for="{{ posts }}" wx:key="{{ item.link }}">
+    <swiper-item class="swiper-item">
+      <view class="post-item">
+        <view class="post-title">
+          {{ index + 1 }}: {{ item.title }}
+        </view>
+        <view class="post-content">
+          {{ item.title }}
+        </view>
+        <view class="post-footer">
+          <text>{{ item.date }}</text>
+          <text class="seperator"></text> 
+          <text>来源：{{ item.source }}</text>
+        </view>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>

@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/post/post"
+  ],
+  "window": {
+    "backgroundColor": "#f6f8f9",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f6f8f9",
+    "navigationBarTitleText": "Neko",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance": 50
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

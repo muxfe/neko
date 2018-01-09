@@ -1,0 +1,39 @@
+/* pages/post/post.wxss */
+
+page {
+  height: 100%;
+}
+
+.post-item {
+  width: 84%;
+  height: 89%;
+  margin: 4%;
+  padding: 4%;
+  border-radius: 1%;
+  background-color: #fff;
+  overflow-y: scroll !important;
+}
+
+.post-title {
+  font-size: 1.2rem;
+  margin: 2% 0 5% 0;
+  padding: 2% 0 5% 0;
+  border-bottom: 0.5px solid #ddd;
+}
+
+.post-content {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.post-footer {
+  position: fixed;
+  padding: 4% 0;
+  bottom: 3%;
+  left: 8%;
+  right: 8%;
+  color: #999;
+  font-size: 0.9rem;
+  text-align: center;
+  border-top: 0.5px solid #ddd;
+}

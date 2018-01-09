@@ -1,0 +1,36 @@
+/**index.wxss**/
+
+.post-list {
+  height: 100%;
+  width: 100%;
+}
+
+.post-item {
+  background-color: #fff;
+  color: #444;
+  font-size: 1rem;
+  margin-top: 5%;
+  padding: 10% 4%;
+  border-radius: 3%;
+  box-shadow: 2px 2px 2px rgba(160, 160, 160, 0.2);
+  border: 0.1px solid #eee;
+}
+
+.post-item:active {
+  transform: scale(0.95, 0.9);
+  transition-duration: 500;
+}
+
+.post-date {
+  margin-top: 10%;
+  font-size: 1.8rem;
+  color: #666;
+  padding-left: 5%;
+}
+
+.post-source {
+  font-size: 0.7rem;
+  color: #999;
+  float: right;
+  margin-left: -2%;
+}

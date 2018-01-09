@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <scroll-view class="post-list">
+    <view wx:key="{{ item.date }}" wx:for="{{ postGroup }}">
+      <view class="post-date">{{ item.date }}</view>
+      <view class="post-item" 
+      bindtap="bindtapPost" 
+      wx:key="{{ post.link }}" wx:for="{{ item.posts }}" wx:for-item="post"
+      data-link="{{ post.link }}">
+        <view class="post-title">{{ post.title }}</view>
+        <view class="post-source">{{ post.source }}</view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
